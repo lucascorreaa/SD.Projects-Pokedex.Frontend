@@ -1,0 +1,1 @@
+# SD.Projects-Pokedex.Frontend
