@@ -8,7 +8,7 @@ const lifecycles = singleSpaReact({
   ReactDOM,
   rootComponent: App,
   errorBoundary(err, info, props) {
-    return <div>This renders when a catastrophic error occurs</div>;
+    return <div>Error loading microfrontend</div>;
   },
 });
 

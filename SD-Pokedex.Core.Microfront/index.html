@@ -11,8 +11,8 @@
       import { registerApplication, start } from "single-spa";
 
       registerApplication({
-        name: "@pokedex/core",
-        app: () => import("/src/main.tsx"),
+        name: "sd-@pokedex/core",
+        app: () => import("/src/main-single-spa.tsx"),
         activeWhen: ["/"],
       });
 
